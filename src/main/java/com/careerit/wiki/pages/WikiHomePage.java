@@ -25,6 +25,7 @@ public class WikiHomePage {
 		SeleniumUtils.waitForWebElement(driver, By.xpath(searchBox));
 		SeleniumUtils.enterTextIntoTexBox(driver, By.xpath(searchBox), searchKey);
 		TestNG_Utils.reportLog("Enter Search Key into Searchbox = "+searchKey);
+		System.out.println("New code change");
 	}
 	
 	public void selectLanguage(String language) {
