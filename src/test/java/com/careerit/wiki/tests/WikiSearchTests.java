@@ -29,6 +29,8 @@ public class WikiSearchTests {
 			homePage.enterSearchKey("India");
 			homePage.selectLanguage("en");
 			homePage.clickOnSearchIcon();
+
+
 			
 			WikiContentPage contentPage=new WikiContentPage(driver);
 			contentPage.readHeaderText();

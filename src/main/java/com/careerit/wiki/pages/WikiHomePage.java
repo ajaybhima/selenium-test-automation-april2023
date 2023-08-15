@@ -15,6 +15,8 @@ public class WikiHomePage {
 	public final String searchIcon="//button[@class='pure-button pure-button-primary-progressive']";
 	
 	public WebDriver driver;
+
+
 	
 	public WikiHomePage(WebDriver driver) {
 		this.driver = driver;
