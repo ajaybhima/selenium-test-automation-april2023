@@ -22,5 +22,12 @@ public class WikiContentPage {
 		TestNG_Utils.reportLog("Header Text = "+ headerTextValue);
 		return headerTextValue;
 	}
+	
+	public String readHeaderText2() {
+		SeleniumUtils.waitForWebElement(driver, By.xpath(headerText));
+		String headerTextValue= SeleniumUtils.readText(driver, By.xpath(headerText));
+		TestNG_Utils.reportLog("Header Text = "+ headerTextValue);
+		return headerTextValue;
+	}
 
 }
